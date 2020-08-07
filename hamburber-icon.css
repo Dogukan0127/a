@@ -16,13 +16,14 @@ nav {
 }
 
 .list {
-    width: 100%;
+    width: 40%;
     height: 100%;
     display: flex;
     list-style: none;
     font-size: 20px;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
+    
 }
 
 .list li a {
