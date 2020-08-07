@@ -63,13 +63,14 @@ nav {
         flex-direction: column;
         clip-path: circle(50px at -65% 35%);
         -webkit-clip-path: circle(50px at 35% -65%);
-        transition: all 1s ease-out;
+        transition: all 1.5s ease-out;
         pointer-events: none;
     }
 
     .list.open {
-        clip-path: circle(1500px at 90% -10%);
-        -webkit-clip-path: circle(1500px at 90% -10%);
+        clip-path: circle(1300px at 66% -10%);
+        -webkit-clip-path: circle(1300px at 66% -10%);
         pointer-events: all;
+
     } 
 }
